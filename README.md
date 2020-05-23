@@ -1,7 +1,7 @@
 # pathviz
 ## TODO
 ### Phase I 
-- [X] Making a grid 
+- [ ] Making a responsive grid 
 - [ ] a navbar for selecting start end nodes or wall nodes 
 - [ ] a sidebar for selecting the algorithm 
 - [ ] implement A* algorithm
