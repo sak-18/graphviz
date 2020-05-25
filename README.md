@@ -1,4 +1,4 @@
-# pathviz
+# graphviz
 ## TODO
 ### Phase I 
 - [X] Making a responsive weblayout and grid 
