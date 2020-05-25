@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Node from './Node/Node';
 import {dijkstra, getNodesInShortestPathOrder} from '../algorithms/dijkstra';
 
-import './PathfindingVisualizer.css';
+import '../Layout.css';
 
 const START_NODE_ROW = 10;
 const START_NODE_COL = 15;
@@ -76,11 +76,10 @@ export default class pathviz extends Component {
         <button onClick={() => this.visualizeDijkstra()}>
           Visualize Dijkstra's Algorithm
         </button>
-
         <div className="grid">
           {grid.map((row, rowIdx) => {
             return (
-              <div key={rowIdx}>
+              <div className="grid-row" key={rowIdx}>
                 {row.map((node, nodeIdx) => {
                   const {row, col, isFinish, isStart, isWall} = node;
 

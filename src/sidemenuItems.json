@@ -1,0 +1,45 @@
+{
+  "data": [
+    {
+      "name": "grid visualizations",
+      "children": [
+        {
+          "name": "Dijkstra",
+          "url": "/dijkstra",
+          "heading": "Dijkstra"
+        },
+        {
+          "name": "DFS",
+          "url": "/dfs",
+          "heading": "DFS"
+        },
+        {
+          "name": "BFS",
+          "url": "/bfs",
+          "heading": "BFS"
+        }
+      ]
+    },
+    {
+      "name": "Digraph algorithms",
+      "children": [
+        {
+          "name": "Strongly connected components",
+          "url": "/scc",
+          "heading": "Strongly connected components"
+        },
+        {
+          "name": "Floyd-Warshall",
+          "url": "/fldwarshl",
+          "heading": "Floyd-Warshall"
+        }
+      ]
+    },
+
+    {
+      "name": "Visualize with Google Maps",
+      "url": "/mapviz",
+      "heading": "Visualize with MapsVisualize"
+    }
+  ]
+}

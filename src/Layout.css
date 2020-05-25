@@ -1,0 +1,35 @@
+.sidebar {
+  float: left;
+  width: 20%;
+}
+.heading {
+  float: right;
+  width: 80%;
+  margin: 2px;
+}
+.content {
+  float: right;
+  width: 80%;
+  height: 300px;
+  overflow: auto;
+  border-style: ridge;
+  border-color: slateblue;
+  border-width: 3px;
+  border-radius: 15px;
+  margin: 2px;
+}
+
+.vizgrid {
+  float: right;
+  width: 80%;
+}
+
+.grid {
+  margin: 100px 0 0;
+}
+.grid-row {
+  display: inline-block;
+  height: 20px;
+  width: 100%;
+  margin: -1px;
+}
